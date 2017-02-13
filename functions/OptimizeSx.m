@@ -10,6 +10,7 @@ function [ SxValues ] = OptimizeSx(DEMZ, DEMcellsize, ObTable, gprIndicies, ind,
 %also vary. So the model R2 value is the most important measure of how 
 %useful Sx is. 
 
+
 SxValues = [];
 
 for n = 1:5;
